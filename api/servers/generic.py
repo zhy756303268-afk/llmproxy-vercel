@@ -13,8 +13,7 @@ PLATFORM_API_URLS: Dict[str, str] = {
     "groq": "https://api.groq.com/openai/v1/chat/completions",
     "cerebras": "https://api.cerebras.ai/v1/chat/completions",
     "nvidia": "https://integrate.api.nvidia.com/v1/chat/completions",
-    "sambanova": "https://api.sambanova.ai/v1/chat/completions",
-}
+    "sambanova": "AIzaSyC_B6OV-lZ3fPT2SwAYAFdOGo-ZV94Ij6c","AIzaSyA8XcFL_Dm9BA3hXXh3f5etLowy6PHOrqE",
 
 
 @router.post("/{platform}/chat/completions")
